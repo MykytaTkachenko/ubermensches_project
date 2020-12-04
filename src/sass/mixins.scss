@@ -1,8 +1,7 @@
-@mixin icon-wrapper($brd-radius: 50%, $background-color: #0098cd, $size: 69px, $img) {
+@mixin icon-wrapper($brd-radius: 50%, $background-color: #0098cd, $size: 69px) {
   border-radius: $brd-radius;
   background-color: $background-color;
   width: $size;
   height: $size;
-  background-image: url("$img");
   background-position: center;
 }
