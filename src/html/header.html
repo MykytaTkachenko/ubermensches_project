@@ -7,19 +7,24 @@
         >Brawl Stars</a
       >
     </h1>
+    <input id="burger" type="checkbox" />
+
     <div class="header__burger burger">
-      <span class="burger__part--static"></span>
-      <span class="burger__part--static"></span>
-      <span class="burger__part--static"></span>
-      <a href="#" class="burger__link"></a>
+      <label class="burger__btn" for="burger">
+        <span class="burger__part--static"></span>
+        <span class="burger__part--static"></span>
+        <span class="burger__part--static"></span>
+      </label>
     </div>
     <nav class="header__menu menu">
       <ul class="menu__list list">
-        <li class="list__item"><a href="#" class="list__link">home</a></li>
-        <li class="list__item"><a href="#" class="list__link">features</a></li>
-        <li class="list__item"><a href="#" class="list__link">team</a></li>
+        <li class="list__item"><a href="#home" class="list__link">home</a></li>
         <li class="list__item">
-          <a href="#" class="list__link">testimonials</a>
+          <a href="#features" class="list__link">features</a>
+        </li>
+        <li class="list__item"><a href="#team" class="list__link">team</a></li>
+        <li class="list__item">
+          <a href="#testimonials" class="list__link">testimonials</a>
         </li>
         <li class="list__item"><a href="#" class="list__link">contact</a></li>
       </ul>
@@ -42,8 +47,15 @@
           alt="no_img"
           class="btn__image"
         />Download</a
-      >
+      ><a href="#features" class="header__arrow-down"></a>
     </div>
-    <img src="../images/header_phone.png" alt="no_img" class="header__img" />
+
+    <picture>
+      <source
+        media="(min-width: 1200px)"
+        srcset="../images/header_phone_desktop.png"
+       />
+      <img src="../images/header_phone.png" alt="no_img" class="header__img"
+    /></picture>
   </div>
 </header>
