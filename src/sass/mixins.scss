@@ -13,7 +13,7 @@
   border-radius: $border-radius;
   font-size: $fz;
 }
-@mixin before-after-title($color:#222222, $top:8px , $left:-80px, $right:80px) {
+@mixin before-after-title($color:#222222, $top:8px , $left:-80px, $right:-80px) {
   position: relative;
   //  z-index: 1;
 
@@ -23,7 +23,7 @@
     display: block;
     height: 2px;
     position: absolute;
-    color: $color;
+    background-color: $color;
     width: 60px;
     //  z-index: -1;
     top: $top;
