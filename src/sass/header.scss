@@ -31,7 +31,7 @@
   position: relative;
 
   @media screen and (min-width: 1440px) {
-    max-width: 1700px;
+    max-width: 1600px;
     margin: 0 auto;
   }
 }
@@ -204,13 +204,14 @@
   @media screen and (min-width: 1200px) {
     background-image: url("../images/header_bckgrd_desktop.png");
 
-    padding: 236px 48px 165px;
+    padding: 206px 48px 165px;
   }
   @media screen and (min-width: 1440px) {
-    padding: 240px 48px 186px;
+    padding: 240px 48px 116px;
   }
 }
 .header__text-wrapper {
+
   text-align: left;
   margin: 0 auto;
   max-width: 290px;
@@ -223,13 +224,14 @@
     max-width: 900px;
   }
   @media screen and (min-width: 1200px) {
-    max-width: 1200px;
+    max-width: 1100px;
   }
-  @media screen and (min-width: 1200px) {
-    max-width: 1600px;
+  @media screen and (min-width: 1440px) {
+    max-width: 1500px;
   }
 }
 .header__headline {
+
   font-family: "Raleway", sans-serif;
   color: $main-white;
   font-size: 24px;
@@ -244,13 +246,12 @@
   }
   @media screen and (min-width: 1440px) {
     font-size: 72px * 0.8;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
 .header__text {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 50px;
-
   color: $main-white;
   font-size: 16px;
   font-weight: 700;
@@ -363,7 +364,7 @@
   justify-content: space-between;
   align-items: center;
   font-family: "Open Sans", sans-serif;
-  border-radius: 4px;
+  border-radius: 8px;
   height: 48px;
   width: 210px;
   color: $main-white;
@@ -385,7 +386,7 @@
   @media screen and (min-width: 1440px) {
     transform: scale(1.7 * 0.8);
     margin-left: 45px;
-    margin-top: 120px;
+    margin-top: 90px;
     &:hover {
       transform: scale(1.7 * 0.8 * 0.97);
     }
@@ -426,14 +427,14 @@
     right: 0;
   }
   @media screen and (min-width: 1200px) {
-    bottom: -305px;
+    bottom: -280px;
     // ppp
     right: -10px;
   }
   @media screen and (min-width: 1440px) {
-    width: 573px * 0.8;
+    width: 573px * 0.75;
     right: -20px;
-    bottom: -340px;
+    bottom: -340px*0.73;
     // ttt
   }
 }
@@ -443,18 +444,18 @@
     display: block;
     position: absolute;
     width: 550px;
-    bottom: -200px;
+    bottom: -262px;
     // ppp
-    right: 250px;
-    z-index: 2;
+    right: 220px;
+    z-index: 1;
   }
   @media screen and (min-width: 1440px) {
     width: 700px;
-    bottom: -300px;
+    bottom: -300px*0.75;
     // ttt
   }
 }
 article {
   height: 2000px;
-  background-color: rebeccapurple;
+  background-color: wheat;
 }
