@@ -1,8 +1,8 @@
 .header {
-  position: fixed;
-  width: 100%;
-  z-index: 5;
   @media screen and (min-width: 768px) {
+    position: fixed;
+    width: 100vw;
+    z-index: 5;
   }
   @media screen and (min-width: 1200px) {
   }
@@ -194,7 +194,7 @@
   background-image: url("../images/header_bckgrd.png");
   background-size: cover;
   background-color: $main-black;
-  padding: 170px 16px 16px;
+  padding: 90px 16px 16px;
   position: relative;
   @media screen and (min-width: 768px) {
     background-image: url("../images/header_bckgrd_tablet.png");
@@ -211,7 +211,6 @@
   }
 }
 .header__text-wrapper {
-
   text-align: left;
   margin: 0 auto;
   max-width: 290px;
@@ -231,7 +230,6 @@
   }
 }
 .header__headline {
-
   font-family: "Raleway", sans-serif;
   color: $main-white;
   font-size: 24px;
@@ -424,7 +422,7 @@
     display: block;
     position: absolute;
     bottom: -265px;
-    right: 0;
+    right: 20px;
   }
   @media screen and (min-width: 1200px) {
     bottom: -280px;
@@ -434,7 +432,7 @@
   @media screen and (min-width: 1440px) {
     width: 573px * 0.75;
     right: -20px;
-    bottom: -340px*0.73;
+    bottom: -340px * 0.73;
     // ttt
   }
 }
@@ -443,15 +441,14 @@
   @media screen and (min-width: 1200px) {
     display: block;
     position: absolute;
-    width: 550px;
-    bottom: -262px;
-    // ppp
-    right: 220px;
+    width: 614px;
+    bottom: -259px;
+    right: 203px;
     z-index: 1;
   }
   @media screen and (min-width: 1440px) {
     width: 700px;
-    bottom: -300px*0.75;
+    bottom: -300px * 0.75;
     // ttt
   }
 }
