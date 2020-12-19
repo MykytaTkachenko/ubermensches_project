@@ -95,7 +95,7 @@
   display: block;
   &:hover {
     color: $main-blue;
-    background-color: #fff;
+    background-color: $main-white;
   }
   @media screen and (min-width: 768px) {
     padding: 0;
@@ -356,7 +356,6 @@
   }
 }
 .header__btn {
-  display: block;
   padding: 0 30px 0 19px;
   display: flex;
   justify-content: space-between;
