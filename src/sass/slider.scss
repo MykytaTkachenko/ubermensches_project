@@ -1,5 +1,5 @@
 .reviews{
-  margin-top: 50px;
+  
   text-align: center;
   position: relative;
   margin-bottom: 50px;
@@ -43,7 +43,7 @@
 
 
   &__slider{
-    height: 115vh;
+    height: 395px;
     width: inherit;
     overflow: hidden;
     position: relative;
@@ -55,9 +55,11 @@
       width: auto;
       height: 90px; 
     }
-
+    &-review-hidden{
+      opacity: 0;
+    }
     &-wrapper{
-      height: 115vh;
+      height: 80vh;
       width: 280px;
       margin: 0 auto;
       position: relative;
@@ -78,6 +80,7 @@
       position: absolute;
       opacity: 0;
       z-index: 0;
+      object-fit: cover;
       transform: scale(1.5);
       transition: transform ease-in-out .5s, opacity ease-in-out .5s;
     }
@@ -157,7 +160,8 @@
       font-weight: 400;
       font-size: 16px;
       color: $text-color;
-      max-width: 219px;
+      width: 219px;
+      display: inline-grid;
       margin: 0 auto;
      }
 
@@ -206,15 +210,18 @@
     
       &__slider{
         width: 580px;
-        height: 95vh;
+        height: 487px;
         &-img{
           margin-top: 4px;
           border-radius: 100px; 
           
         }
-    
+        &-review-hidden{
+          opacity: 1;
+        }
         &-wrapper{
           width: 580px;
+          height: 650px;
           margin: 0 auto;
           position: relative;
         }
@@ -319,12 +326,12 @@
       }
   
     &__slider{
-      height: 72vh;
+      height: 380px;
       width: 939px;
       
   
       &-wrapper{
-        height: 80vh;
+        height: 605px;
         margin: 0 auto;
         width: 939px;
         position: relative;
@@ -336,8 +343,8 @@
       }
 
       &-control{
-        width: 60px;
-        height: 60px;
+        width: 75px;
+        height: 75px;
       }
     
       &-wrapper > input{
@@ -387,12 +394,12 @@
    
   
       &__slider{
-        height: 55vh;
+        height: 375px;
         width: 1000px;
         
     
         &-wrapper{
-          // height: 55vh;
+          height: 575px;
           margin: 0 auto;
           width: 939px;
           position: relative;
