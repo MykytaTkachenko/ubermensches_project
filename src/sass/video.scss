@@ -1,0 +1,246 @@
+@import 'colors.scss';
+
+@import 'mixins.scss';
+
+.section_video {
+    background-color: $light-blue;
+    padding: 1rem 1rem;
+ 
+
+    @media screen and ( min-width: 1200px) {
+        display: flex;
+        padding: 0;
+        // justify-content: start;
+   
+}
+
+}
+
+
+.video_text_wrapper_media {
+    @media screen and ( min-width: 1200px) {
+        margin-top: 70px;
+        justify-content: start; 
+
+    }
+}
+
+
+.video_title {
+    font-size: 18px;
+    color: $text-color;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 25px;
+    padding-top: 80px;
+    text-align: center;
+    
+
+    
+    @media screen and (min-width: 768px)  {
+        font-size: 28px;
+    }
+
+    @media screen and ( min-width: 1200px) {
+        text-align: start;
+        padding-left: 60px;
+    }
+    
+}
+
+
+.video_text {
+    color: $main-white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+
+
+    // width: 250px;
+    margin: 0 auto 18px;
+    
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 550px;
+
+
+
+    @media screen and (min-width: 768px)  {
+        // width: 550px;
+        font-size: 16px;
+        line-height: 26px;
+        padding-left: 60px;
+        padding-right: 60px;
+
+    }
+
+
+    @media screen and ( min-width: 1200px) {
+        text-align: start;
+        padding-left: 60px;
+        max-width: 650px;
+    }
+
+}
+
+
+
+.video_social_icon_wrapper {
+        justify-content: center;
+        margin: 0 auto;
+
+    @media screen and ( min-width: 1200px) {
+        justify-content: start;
+
+        margin-top: 50px;
+        margin-left: 60px;
+        // margin-left: auto;
+
+    }
+}
+
+
+.video_social_link_android {
+    background-image: url(../images/video_images/android_icon.png);
+    border-radius: 50%;
+    background-color: $dark-blue;
+    padding: 20px 30px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    // @include icon-wrapper($brd-radius: 50%, $background-color: #0098cd, $size: 69px);
+
+    &:hover {
+    background-color: $main-blue;
+
+    // position: relative;
+    
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    }
+}
+
+
+
+
+
+.video_social_link_apple {
+    background-image: url(../images/video_images/apple_icon.png);
+    border-radius: 50%;
+    background-color: $dark-blue;
+    padding: 20px 30px;
+    margin-right: 20px;
+
+
+    background-repeat: no-repeat;
+    background-position: center;
+
+    // @include icon-wrapper($brd-radius: 50%, $background-color: #0098cd, $size: 69px);
+
+    &:hover {
+    background-color: $main-blue;
+
+    }
+        
+}
+
+.video_link_video {
+
+    margin: 0 auto;
+    justify-content: center;
+    width: 285px;
+    outline: none;
+    padding-bottom: 60px;
+    padding-top: 37px;
+    opacity: 0.6;
+
+
+    @media screen and (min-width: 768px) {
+
+        margin-bottom: 107px;
+         width: 500px;
+
+
+    }
+    
+    @media screen and ( min-width: 1200px) {
+        width: 570px;
+        margin: 120px auto 120px;  
+        justify-content: flex-end;
+    }
+    
+    &:hover {
+        opacity: 5;
+    }
+}
+
+
+
+
+
+
+
+
+// .video_android {
+//     background-image: url(../images/video_images/android_icon.png);
+// }
+
+// .video_apple {
+//     background-image: url(../images/video_images/apple_icon.png);
+// }
+
+
+.video_social_icon {
+
+    // justify-content: center;
+    // margin: 0 auto;
+
+    
+    // border-radius: 50%;
+    // background-color: $dark-blue;
+    // padding: 20px 17px;
+    // background-size: 22px;
+
+
+
+
+
+
+//     @include icon-wrapper(
+//         border-radius: $brd-radius,
+//         background-color: $background-color,
+//         width: $size,
+//         height: $size,
+//         background-position: center,
+// )
+
+//     background-image: url(../images/video_images/android_icon.png);
+
+
+
+
+
+
+
+
+// width: 170px;
+// height: 50px;
+// background-position: center;
+
+// justify-content: center;
+
+}
+
+
+
+
+
+
+
