@@ -3,6 +3,7 @@
   background-image: url(..//images/footer/footer_background_phone.png);
   background-color: $main-black;
   background-repeat: no-repeat;
+  background-size: cover;
   padding-bottom: 8px;
   @media screen and (min-width: 768px) {
     background-image: url(../images/footer/footer_background_tablet.png);
