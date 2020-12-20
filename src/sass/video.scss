@@ -5,22 +5,26 @@
 .section_video {
     background-color: $light-blue;
     padding: 1rem 1rem;
- 
+
+}
+
+.video_section_wrapper_media {
 
     @media screen and ( min-width: 1200px) {
         display: flex;
+        justify-content: space-between;
         padding: 0;
-        // justify-content: start;
-   
-}
 
-}
+        max-width: 1300px;
+        margin: 0 auto;
 
+    }
+}
 
 .video_text_wrapper_media {
     @media screen and ( min-width: 1200px) {
-        margin-top: 70px;
         justify-content: start; 
+        margin-top: 70px;
 
     }
 }
@@ -33,7 +37,6 @@
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 25px;
-    // padding-top: 40px;
     text-align: center;
     
 
@@ -43,6 +46,7 @@
     }
 
     @media screen and ( min-width: 1200px) {
+
         text-align: start;
         padding-left: 60px;
         padding-top: 10px;
@@ -65,7 +69,6 @@
 
 
     @media screen and (min-width: 768px)  {
-        // width: 550px;
         font-size: 16px;
         line-height: 26px;
         padding-left: 60px;
@@ -97,12 +100,6 @@
         margin-top: 20px;
         margin-left: 60px;
         position: absolute;
-
-        // &:hover {
-        //                 -moz-transform: scale(1.1);
-        //                 -webkit-transform: scale(1.1);
-        //                 transform: scale(1.1);
-        //             }
     }
 }
 
@@ -113,18 +110,17 @@
     background-color: $dark-blue;
     padding: 30px 30px;
 
+
+    transition: 200ms linear;
     background-repeat: no-repeat;
     background-position: center;
 
-    transition: 200ms linear;
-
-    
     // @include icon-wrapper($brd-radius: 50%, $background-color: #0098cd, $size: 69px);
 
     &:hover {
     background-color: $main-blue;
 
-    transition: 200ms linear;
+    
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -142,7 +138,7 @@
     padding: 30px 30px;
     margin-right: 20px;
 
-
+    transition: 200ms linear;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -152,7 +148,6 @@
 
     background-color: $main-blue;
 
-    transition: 200ms linear;
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -168,11 +163,7 @@
     width: auto;
     max-width: 285px;
     outline: none;
-
-
-    // padding-bottom: 60px;
-    // padding-top: 37px;
-    opacity: 0.6;
+    opacity: 0.75;
 
 
     @media screen and (min-width: 768px) {
@@ -193,7 +184,7 @@
 
     
     &:hover {
-        opacity: 6;
+        opacity: 1;
     }
 
 }
