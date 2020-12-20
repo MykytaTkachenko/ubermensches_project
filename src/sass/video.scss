@@ -33,7 +33,7 @@
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 25px;
-    padding-top: 80px;
+    // padding-top: 40px;
     text-align: center;
     
 
@@ -85,7 +85,7 @@
 .video_social_icon_wrapper {
         display: flex;
         justify-content: center;
-        margin: 0 auto;
+        margin: 20px 0 30px 0;
 
     @media screen and ( min-width: 768px) {
         margin-top: 25px;
@@ -94,23 +94,15 @@
 
     @media screen and ( min-width: 1200px) {
         justify-content: start;
-        margin-top: 50px;
+        margin-top: 20px;
         margin-left: 60px;
         position: absolute;
-        // margin-left: auto;
 
-        &:hover {
-                        // -webkit-transform: scale(1.1);
-                        // -moz-transform: scale(1.1);
-                        // -o-transform: scale(1.1);
-            
-                        -moz-transform: scale(1.1);
-                        -webkit-transform: scale(1.1);
-                        transform: scale(1.1);
-                        // -webkit-transform: scale(1.2);
-                        // -ms-transform: scale(1.2);
-                        // transform: scale(1.2);
-                    }
+        // &:hover {
+        //                 -moz-transform: scale(1.1);
+        //                 -webkit-transform: scale(1.1);
+        //                 transform: scale(1.1);
+        //             }
     }
 }
 
@@ -124,12 +116,18 @@
     background-repeat: no-repeat;
     background-position: center;
 
+    transition: 200ms linear;
 
+    
     // @include icon-wrapper($brd-radius: 50%, $background-color: #0098cd, $size: 69px);
 
     &:hover {
     background-color: $main-blue;
 
+    transition: 200ms linear;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
     }
 }
 
@@ -151,7 +149,13 @@
     // @include icon-wrapper($brd-radius: 50%, $background-color: #0098cd, $size: 69px);
 
     &:hover {
+
     background-color: $main-blue;
+
+    transition: 200ms linear;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 
     }
         
@@ -185,6 +189,8 @@
         display: flex;
         justify-content: flex-end;
     }
+
+
     
     &:hover {
         opacity: 6;
