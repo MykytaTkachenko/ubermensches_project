@@ -57,7 +57,7 @@
     }
 
     &-wrapper{
-      height: 80vh;
+      height: 115vh;
       width: 280px;
       margin: 0 auto;
       position: relative;
@@ -324,7 +324,7 @@
       
   
       &-wrapper{
-        // height: 55vh;
+        height: 80vh;
         margin: 0 auto;
         width: 939px;
         position: relative;
@@ -364,7 +364,15 @@
         max-width: 920px;
         width: 100%;
        }
+
+       &-next{
+        right: -45px;
       }
+      &-prev{
+        left: -45px;
+      }
+      }
+
   }
 }
   @media screen and (min-width: 1440px){
