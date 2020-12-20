@@ -13,7 +13,6 @@
   }
   @media screen and (min-width: 1440px) {
     background-image: url(../images/footer/footer_background_desktop.png);
-    width: 1440px;
   }
 }
 .footer_section {
@@ -59,6 +58,8 @@
 
 .div_form {
   text-align: center;
+  width: 300px;
+  margin: 0 auto;
   @media screen and (min-width: 768px) {
     width: 600px;
     margin: 0 auto;
@@ -107,6 +108,7 @@
   border-radius: 2px;
   color: #c1c1c1;
   margin-bottom: 45px;
+  resize: none;
 
   @media screen and (min-width: 768px) {
     width: 571px;
