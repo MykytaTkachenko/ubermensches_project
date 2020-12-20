@@ -1,6 +1,8 @@
+
+@import 'normalize.scss';
+@import 'base.scss';
+@import 'colors.scss';
+@import 'mixins.scss';
 @import './fonts.scss';
-@import './normalize.scss';
-@import './base.scss';
-@import './colors.scss';
-@import './mixins.scss';
 @import "header.scss";
+@import 'key-features.scss'
