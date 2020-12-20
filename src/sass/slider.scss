@@ -334,6 +334,11 @@
         margin: 0 auto;
         position: relative;
       }
+
+      &-control{
+        width: 60px;
+        height: 60px;
+      }
     
       &-wrapper > input{
         display: none;
