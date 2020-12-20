@@ -24,17 +24,17 @@
       display: block;
       position: absolute;
       width: 60px;
-      top: 9px;
+      top: 8px;
       border-bottom: 2px solid #babdc1;
     }
 
     &::before{
       left: -46px;
-      top: 15px;
+      top: 8px;
     }
     &::after{
       right: -46px;
-      top: 15px;
+      top: 8px;
     }
     
       
@@ -200,9 +200,11 @@
 
         &::before{
           left: -92px;
+          top: 15px;
         }
         &::after{
           right: -92px;
+          top: 15px;
         }
         
           
