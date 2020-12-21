@@ -34,26 +34,30 @@ html{
   position: relative;
 
   @media screen and (min-width: 1440px) {
-    max-width: 1600px;
+    max-width: 1550px;
     margin: 0 auto;
   }
 }
 .logo__link {
   font-family: "Raleway", sans-serif;
   color: $main-blue;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 800;
   text-decoration: none;
+   @media screen and (min-width: 1200px) {
+    font-size: 32px;
+  }
+
   @media screen and (min-width: 1440px) {
-    font-size: 55px * 0.8;
+    font-size: 35px;
   }
 }
 .header__menu {
-  position: absolute;
+  position: fixed;
   right: -100%;
   z-index: 6;
   height: 100vh;
-  width: 45vw;
+  width: 46.5vw;
   top: 0;
   transition: 300ms linear;
   background-color: rgba(255, 255, 255, 0.9);
@@ -87,14 +91,14 @@ html{
   list-style: none;
 }
 .list__link {
-  font-size: 16px;
+  font-size: 14px;
   color: #6b6b6b;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
   text-decoration: none;
   transition: 200ms linear;
-  padding: 10px 16px 10px;
+  padding: 10px 10px 10px;
   display: block;
   &:hover {
     color: $main-blue;
@@ -104,7 +108,7 @@ html{
     padding: 0;
   }
   @media screen and (min-width: 1200px) {
-    font-size: 18px;
+    font-size: 16px;
   }
   @media screen and (min-width: 1440px) {
     font-size: 24px * 0.8;
@@ -153,7 +157,7 @@ html{
     position: fixed;
     top: 80px;
     left: 0;
-    width: 55vw;
+    width: 60vw;
     height: 500px;
     z-index: 10;
   }
@@ -219,7 +223,7 @@ html{
   max-width: 290px;
   position: relative;
   @media screen and (min-width: 450px) {
-    width: 400px;
+    max-width: 330px;
   }
   @media screen and (min-width: 768px) {
     width: 100%;
@@ -246,7 +250,7 @@ html{
     font-size: 48px;
   }
   @media screen and (min-width: 1440px) {
-    font-size: 72px * 0.8;
+    font-size: 52px;
     margin-bottom: 20px;
   }
 }
@@ -260,10 +264,10 @@ html{
     font-size: 22px;
   }
   @media screen and (min-width: 1200px) {
-    font-size: 26px;
+    font-size: 24px;
   }
   @media screen and (min-width: 1440px) {
-    font-size: 32px * 0.8;
+    font-size: 24px;
     margin-bottom: 100px;
   }
 }
@@ -285,12 +289,13 @@ html{
   font-weight: 700;
   cursor: pointer;
   @media screen and (min-width: 1200px) {
-    font-size: 22px;
+    font-size: 18px;
+    width: 230px;
+
   }
   @media screen and (min-width: 1440px) {
-    font-size: 30px * 0.8;
+    font-size: 20px;
     margin-bottom: 32px;
-    width: 230px;
   }
   &::after {
     transition: 300ms ease-in-out;
@@ -299,7 +304,7 @@ html{
     width: 250px;
     position: absolute;
     top: 25px;
-    left: 9999px;
+    left: 5999px;
     height: 150px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -346,13 +351,10 @@ html{
     transition: 200ms linear;
 
     @media screen and (min-width: 1200px) {
-      top: 4px;
     }
     @media screen and (min-width: 1440px) {
       width: 12px;
       height: 22px;
-      top: 2px;
-    }
   }
   &:hover::before {
     transform: rotate(90deg);
@@ -435,7 +437,7 @@ html{
   @media screen and (min-width: 1440px) {
     width: 573px * 0.75;
     right: -20px;
-    bottom: -340px * 0.73;
+    bottom: -200px;
     // ttt
   }
 }
@@ -451,7 +453,7 @@ html{
   }
   @media screen and (min-width: 1440px) {
     width: 700px;
-    bottom: -300px * 0.75;
+    bottom: -170px;
     // ttt
   }
 }

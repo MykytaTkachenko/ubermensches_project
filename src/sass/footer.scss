@@ -1,27 +1,26 @@
 .footer {
   padding-top: 60px;
-  background-image: url(..//images/footer/footer_background_phone.png);
+  background-image: url(..//images/footer_background_phone.png);
   background-color: $main-black;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 8px;
   @media screen and (min-width: 768px) {
-    background-image: url(../images/footer/footer_background_tablet.png);
+    background-image: url(../images/footer_background_tablet.png);
   }
   @media screen and (min-width: 1200px) {
-    background-image: url(../images/footer/footer_background_desktop.png);
+    background-image: url(../images/footer_background_desktop.png);
     position: relative;
     padding: 60px 48px 10px 48px;
   }
   @media screen and (min-width: 1440px) {
-    background-image: url(../images/footer/footer_background_desktop.png);
   }
 }
 .footer_section {
   @media screen and (min-width: 1200px) {
     justify-content: space-between;
     display: flex;
-    max-width: 1200px;
+    max-width: 1350px;
     margin: 0 auto;
   }
 }
@@ -197,7 +196,7 @@
 
 .footer_link {
   text-decoration: none;
-  background-image: url('../images/footer/facebook_icon.png');
+  background-image: url('../images/team_facebook.png');
   background-size: 10px;
   display: block;
   background-repeat: no-repeat;
@@ -207,17 +206,17 @@
     $size: 33px
   );
   &:nth-child(2) {
-    background-image: url('../images/footer/twitter_icon.png');
+    background-image: url('../images/team_twitter.png');
     background-size: 22px;
     background-color: $light-blue;
   }
   &:nth-child(3) {
-    background-image: url('../images/footer/footer_instamgram.png');
+    background-image: url('../images/team_instamgram.png');
     background-size: 32px;
     background-color: #82459a;
   }
   &:nth-child(4) {
-    background-image: url('../images/footer/footer_github.png');
+    background-image: url('../images/team_github.png');
     background-size: 32px;
     background-color: $main-black;
   }
@@ -277,7 +276,7 @@
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  width: 180px;
+  width: 215px;
   color: #a9a9a9;
   margin: 0 20px;
   @media screen and (min-width: 768px) {
@@ -309,5 +308,5 @@
 .footer_gmail_div {
   display: flex;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1350px;
 }

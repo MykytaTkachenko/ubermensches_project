@@ -19,6 +19,7 @@
   margin: 0 auto 38px;
   width: 120px;
 
+
   @include before-after-title(
     $color: #535b6499,
     $top: 8px,
@@ -33,7 +34,7 @@
       $left: -70px,
       $right: -70px
     );
-    width: 150px;
+    width: 200px;
     margin: 0 auto 68px;
   }
 }
@@ -119,12 +120,12 @@
   transition: 300ms linear;              
    
   &--1{
-    background-image: url("../images/grft_man-19122020-0001.jpeg");
+    background-image: url("../images/grft_man-19122020-0001.jpg");
     font-size: 9px;
   }
 
   &--dima{
-    background-image: url("../images/dima.jpeg");
+    background-image: url("../images/dima.jpg");
     // background-position:  -10px;
     background-position:  center;
     background-repeat: no-repeat;

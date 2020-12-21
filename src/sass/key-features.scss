@@ -12,22 +12,24 @@
 .key-features__title {
     text-align: center;
     margin: 56px auto 35px auto;
-    width: 290px;
+    width: 230px;
     font-size: 18px;
     font-weight: 700;
     color: $main-blue;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
-    @include before-after-title($color:#535b6499, $top:8px, $left:10px, $right:10px);
+    @include before-after-title($color:#535b6499, $top:8px, $left:-30px, $right:-30px);
 
     @media screen and (min-width: 768px) {
         font-size: 28px;
         margin-top: 121px;
         margin-bottom: 66px;
-        @include before-after-title($color:#535b6499, $top:14px , $left:-25px, $right:-25px);
-    }
-}
+    width: 250px;
 
+        @include before-after-title($color:#535b6499, $top:13px , $left:-70px, $right:-70px);
+    }
+      @media screen and (min-width: 768px) {
+        margin-top: 200px;}}
 .key-features__text {
     text-align: center;
     margin: 0px 19px 42px 19px;
@@ -49,6 +51,8 @@
 
     @media screen and (min-width: 1440px) {
         font-size: 22px;
+        width: 1200px;
+
     }
 }
 
@@ -71,7 +75,8 @@
     }
 
     @media screen and (min-width: 1440px) {
-        width: 1300px;
+        max-width: 1500px;
+        width: 90vw;
     }
 }
 
@@ -83,21 +88,22 @@
     }
 
     @media screen and (min-width: 1200px) {
-        height: 550px;
-        margin-top: 60px;
+        height: 580px;
+        margin-top: 35px;
         // margin-bottom: auto;
     }
 
     @media screen and (min-width: 1440px) {
         height: 600px;
         margin-top: 40px;
+        width: 420px;
     }
 }
 
 .key-features__wrapper_div {
     margin-bottom: 37px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
 
     @media screen and (min-width: 768px) {
@@ -116,6 +122,10 @@
             border: 5px solid #330cf4;
             transition: 200ms linear;
         }
+    }
+     @media screen and (min-width: 1440px) {
+        width: 420px;
+        padding: 0;
     }
 
     &:nth-child(1) {
@@ -142,6 +152,9 @@
 
 .key-features__wrapper_main_text {
     max-width: 280px;
+    @media screen and (min-width: 1440px) {
+        max-width: 340px;
+    }
 }
 
 .key-features__wrapper_title {
@@ -170,6 +183,7 @@
 
     @media screen and (min-width: 1440px) {
         font-size: 18px;
+        width: 340px;
     }
 }
 
