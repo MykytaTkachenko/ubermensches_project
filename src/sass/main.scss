@@ -1,5 +1,8 @@
-@import './fonts.scss';
-@import "./header.scss";
+@import './base.scss';
+@import './normalize.scss';
+@import './colors.scss';
+@import './header.scss';
+@import './mixins.scss';
 @import './key-features.scss';
 @import './video.scss';
 @import './team.scss';

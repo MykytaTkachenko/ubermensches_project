@@ -1,8 +1,11 @@
+html{
+  overflow-x: hidden;
+}
 .header {
   @media screen and (min-width: 768px) {
     position: fixed;
-    width: 100vw;
-    z-index: 5;
+    width: 100%;
+    z-index: 100;
   }
   @media screen and (min-width: 1200px) {
   }
