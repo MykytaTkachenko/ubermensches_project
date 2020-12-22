@@ -1,4 +1,7 @@
-html,section,header,footer{
+html,
+header,
+main,
+footer {
   overflow-x: hidden;
 }
 
@@ -340,7 +343,7 @@ html,section,header,footer{
 
   &::before {
     content: "";
-    background-image: url('../images/header_arow.png');
+    background-image: url("../images/header_arow.png");
     background-repeat: no-repeat;
     display: block;
     width: 10px;
