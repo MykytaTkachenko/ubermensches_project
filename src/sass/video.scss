@@ -163,8 +163,8 @@
     width: auto;
     max-width: 285px;
     outline: none;
-    opacity: 0.8;
-
+    // opacity: 0.8;
+transition: 200ms linear;
     @media screen and (min-width: 500px) {
         margin-bottom: 20px;
         max-width: 450px;

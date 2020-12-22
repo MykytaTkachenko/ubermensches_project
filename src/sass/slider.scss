@@ -2,6 +2,7 @@
   text-align: center;
   position: relative;
   margin-bottom: 50px;
+  
 
   &__title {
     font-family: "Open Sans", sans-serif;
@@ -52,9 +53,11 @@
     }
     &-review-hidden {
       opacity: 0;
+          text-align: center;
+
     }
     &-wrapper {
-      height: 570px;
+      height: 440px;
       width: 280px;
       margin: 0 auto;
       position: relative;
@@ -96,6 +99,8 @@
       position: absolute;
       top: 50%;
       width: 40px;
+      top: 300px;
+
       height: 40px;
       transform: translateY(-50%);
       z-index: 55;
@@ -155,8 +160,8 @@
       font-weight: 400;
       font-size: 16px;
       color: $text-color;
-      width: 219px;
-      display: inline-grid;
+      width: 220px;
+      display: inline-block;
       margin: 0 auto;
     }
 
@@ -212,6 +217,7 @@
         }
         &-review-hidden {
           opacity: 1;
+
         }
         &-wrapper {
           width: 580px;
@@ -370,12 +376,12 @@
         }
 
         &-next {
-          top: 315px;
+          top: 310px;
 
           right: -80px;
         }
         &-prev {
-          top: 315px;
+          top: 310px;
           left: -80px;
         }
       }
