@@ -163,7 +163,6 @@
     width: auto;
     max-width: 285px;
     outline: none;
-    opacity: 0.8;
 transition: 200ms linear;
     @media screen and (min-width: 500px) {
         margin-bottom: 20px;
@@ -185,7 +184,5 @@ transition: 200ms linear;
         max-width: 750px;
     }
 
-    &:hover {
-        opacity: 1;
-    }
+    
 }

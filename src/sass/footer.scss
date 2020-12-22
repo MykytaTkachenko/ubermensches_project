@@ -243,21 +243,30 @@
 //   width: 30px;
 //   height: 20px;
 // }
-.footer_number {
+.footer_number>a {
+  text-decoration: none;
   margin-bottom: 14px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   color: #bface2;
   font-size: 14px;
-  @media screen and (min-width: 1440px) {
+  transition:200ms linear;
+  &:hover {
+    color: #82459a;
   }
 }
 
-.footer_email {
+.footer_email > a{
+  text-decoration:none;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   color: #bface2;
   font-size: 14px;
+  transition:200ms linear;
+
+   &:hover {
+    color: #82459a;
+  }
 }
 
 .footer_email::after {
