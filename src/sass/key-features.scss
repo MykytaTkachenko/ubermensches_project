@@ -17,25 +17,27 @@
     font-weight: 700;
     color: $main-blue;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    @include before-after-title($color:#535b6499, $top:8px, $left:-30px, $right:-30px);
+    font-family: "Raleway", sans-serif;
+    @include before-after-title($color: #535b6499, $top: 8px, $left: -30px, $right: -30px);
 
     @media screen and (min-width: 768px) {
         font-size: 28px;
         margin-top: 121px;
         margin-bottom: 66px;
-    width: 250px;
+        width: 250px;
 
-        @include before-after-title($color:#535b6499, $top:13px , $left:-70px, $right:-70px);
+        @include before-after-title($color: #535b6499, $top: 13px, $left: -70px, $right: -70px);
     }
-      @media screen and (min-width: 768px) {
-        margin-top: 200px;}}
+    @media screen and (min-width: 768px) {
+        margin-top: 200px;
+    }
+}
 .key-features__text {
     text-align: center;
     margin: 0px 19px 42px 19px;
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 
     @media screen and (min-width: 768px) {
         margin: 0px 19px 42px 19px;
@@ -52,7 +54,6 @@
     @media screen and (min-width: 1440px) {
         font-size: 22px;
         width: 1200px;
-
     }
 }
 
@@ -116,16 +117,18 @@
         padding: 10px 10px;
         width: 360px;
         height: auto;
+        transition: 400ms linear;
         border: 5px solid transparent;
-
+        border-radius: 10px;
+        padding: 10px;
         &:hover {
             border: 5px solid #330cf4;
             transition: 200ms linear;
         }
     }
-     @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1440px) {
         width: 420px;
-        padding: 0;
+        // padding: 0;
     }
 
     &:nth-child(1) {
@@ -163,7 +166,7 @@
     font-size: 18px;
     color: $text-color;
     font-weight: 700;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 
     @media screen and (min-width: 1440px) {
         font-size: 23px;
@@ -174,7 +177,7 @@
     font-size: 13px;
     color: $text-color;
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     margin: 0px 0px;
 
     @media screen and (min-width: 768px) {
@@ -196,19 +199,18 @@
         position: relative;
         z-index: 1;
 
-        &:hover>.wrapper_img__inner {
+        &:hover .wrapper_img__inner {
             transform: scale(1.15);
         }
 
-        &:hover >.wrapper_img__button {
+        &:hover > .wrapper_img__button {
             opacity: 1;
         }
     }
 }
 
 .wrapper_img__frame {
-
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 1200px) {
         position: absolute;
         top: 0;
         left: 0;
@@ -216,12 +218,10 @@
     }
 
     @media screen and (min-width: 1440px) {
-        
     }
 }
 
 .wrapper_img__inner {
-
     @media screen and (min-width: 1200px) {
         position: absolute;
         top: 97px;
@@ -231,10 +231,9 @@
     }
 
     @media screen and (min-width: 1440px) {
-        
     }
 }
-  
+
 .wrapper_img__button {
     @media screen and (min-width: 1200px) {
         left: 90px;
@@ -265,7 +264,6 @@
 }
 
 .wrapper_img__button--apple {
-
     @media screen and (min-width: 1200px) {
         top: 480px;
         background-color: #330cf4;
@@ -273,7 +271,6 @@
 }
 
 .wrapper_img__button--play {
-
     @media screen and (min-width: 1200px) {
         background-color: #f4880c;
         top: 135px;

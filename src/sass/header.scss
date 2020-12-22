@@ -355,9 +355,9 @@ html {
       width: 12px;
       height: 22px;
     }
-    &:hover::before {
-      transform: rotate(90deg);
-    }
+  }
+  &:hover::before {
+    transform: rotate(90deg);
   }
 }
 .header__btn {
