@@ -1,15 +1,15 @@
 .footer {
   padding-top: 60px;
-  background-image: url(..//images/footer_background_phone.png);
+  background-image: url(./images/footer_background_phone.png);
   background-color: $main-black;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 8px;
   @media screen and (min-width: 768px) {
-    background-image: url(../images/footer_background_tablet.png);
+    background-image: url(./images/footer_background_tablet.png);
   }
   @media screen and (min-width: 1200px) {
-    background-image: url(../images/footer_background_desktop.png);
+    background-image: url(./images/footer_background_desktop.png);
     position: relative;
     padding: 60px 48px 10px 48px;
   }
@@ -196,7 +196,7 @@
 
 .footer_link {
   text-decoration: none;
-  background-image: url('../images/team_facebook.png');
+  background-image: url('./images/team_facebook.png');
   background-size: 10px;
   display: block;
   background-repeat: no-repeat;
@@ -206,17 +206,17 @@
     $size: 33px
   );
   &:nth-child(2) {
-    background-image: url('../images/team_twitter.png');
+    background-image: url('./images/team_twitter.png');
     background-size: 22px;
     background-color: $light-blue;
   }
   &:nth-child(3) {
-    background-image: url('../images/team_instamgram.png');
+    background-image: url('./images/team_instamgram.png');
     background-size: 32px;
     background-color: #82459a;
   }
   &:nth-child(4) {
-    background-image: url('../images/team_github.png');
+    background-image: url('./images/team_github.png');
     background-size: 32px;
     background-color: $main-black;
   }

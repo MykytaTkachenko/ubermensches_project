@@ -120,32 +120,32 @@
   transition: 300ms linear;              
    
   &--1{
-    background-image: url("../images/grft_man-19122020-0001.jpg");
+    background-image: url("./images/grft_man-19122020-0001.jpg");
     font-size: 9px;
   }
 
   &--dima{
-    background-image: url("../images/dima.jpg");
+    background-image: url("./images/dima.jpg");
     // background-position:  -10px;
     background-position:  center;
     background-repeat: no-repeat;
   }
 
   &--img-3{
-    background-image: url("../images/Микита.jpg");
+    background-image: url("./images/Микита.jpg");
   }
 
   &--img-4{
-    background-image: url("../images/Анна.jpg");
+    background-image: url("./images/Анна.jpg");
   }
 
 
   &--img-5{
-    background-image: url("../images/cool_motomoto.jpg");
+    background-image: url("./images/cool_motomoto.jpg");
   }
 
   &--img-6{
-    background-image: url("../images/Марія.jpg");
+    background-image: url("./images/Марія.jpg");
   }
 }
 
