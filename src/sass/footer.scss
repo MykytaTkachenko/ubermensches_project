@@ -85,6 +85,9 @@
   @media screen and (min-width: 768px) {
     margin-right: 8px;
     margin-bottom: 17px;
+    &--left {
+    margin-right: 0;
+  }
   }
   &--left {
     margin-right: 0;
