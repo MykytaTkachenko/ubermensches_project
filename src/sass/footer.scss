@@ -146,6 +146,12 @@
 .input_submit {
   border: none;
   outline: none;
+  transition:200ms linear;
+   &:hover {
+    -webkit-box-shadow: 5px 5px #00000040;
+    box-shadow: 5px 5px #00000040;
+    transform: scale(0.97);
+  }
 }
 .footer_subtitle {
   font-family: 'Raleway', sans-serif;
