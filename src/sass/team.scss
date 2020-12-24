@@ -59,7 +59,7 @@
 .team__card-container {
   margin: 0 auto 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
   max-width: 300px;
   @media screen and (min-width: 570px) {
